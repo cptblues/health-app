@@ -3,7 +3,7 @@
     "rules": "database.rules.json"
   },
   "hosting": {
-    "public": "",
+    "public": "dist/health-app",
     "ignore": [
       "firebase.json",
       ".firebaserc",
@@ -23,7 +23,7 @@
     "rewrites": [
       {
         "source": "**",
-        "destination": "/index.html"
+        "destination": "/src/index.html"
       }
     ]
   }
