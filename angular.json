@@ -116,6 +116,16 @@
               "devServerTarget": "health-app:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "health-app:build:production",
+            "firebaseProject": "health-app-e54fd",
+            "firebaseHostingSite": "health-app-e54fd"
+          }
         }
       }
     }

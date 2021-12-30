@@ -1,5 +1,14 @@
 {
   "projects": {
     "default": "health-app-e54fd"
+  },
+  "targets": {
+    "health-app-e54fd": {
+      "hosting": {
+        "health-app": [
+          "health-app-e54fd"
+        ]
+      }
+    }
   }
 }
